@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphakaBot - najlepszy czatbot o alpakach</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="text-container">
+        <h1>Cześć!</h1>
+        <p>To pierwsza, robocza wersja czatbota o alpakach.
+            Z AlphacaBot możesz porozmawiać o tych uroczych zwierzętach ^-^
+            Możesz zapytać m.in. o ich charakter, futro i czym różnią się od lam. Czatbot zna też żarty ;)
+        </p>
+        <p>Czatbot powstał przy użyciu narzędzia <a href="https://dialogflow.cloud.google.com/"
+                target="_blank">Dialogflow.</a>
+        </p>
+    </div>
+    <div class="img-container">
+        <img src="/img/pexels-shiwa-yachachin-10906922.jpg" alt="">
+    </div>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger intent="WELCOME" chat-title="AlphacaBot" agent-id="9ddc9176-f683-45fd-a6b8-f56f2e7bd1ec"
+        language-code="pl"></df-messenger>
+</body>
+
+</html>
